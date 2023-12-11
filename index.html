@@ -1,125 +1,540 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio of Wito Malik</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            overflow: hidden;
-            padding: 0 20px;
-        }
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
-        }
-        header a {
-            color: #ffffff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        header .highlight, header .current a {
-            color: #e8491d;
-            font-weight: bold;
-        }
-        header a:hover {
-            color: #ffffff;
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MyResume Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/0971e450b1.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">Wito Malik</span></h1>
-            </div>
-            <nav>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Wito Malik</h1>
+      <p>I'm <span class="typed" data-typed-items="Researcher, Computer Vision Engineer, Software Developer, Data Engineer"></span></p>
+      <div class="social-links">
+        <a href="https://github.com/witomalik" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://linkedin.com/in/witomalik" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <!-- <p>Bringing visions to life through intelligent technology solutions</p> -->
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid rounded-circle" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Data Engineer</h3>
+            <p class="fst-italic">
+              Bringing visions to life through intelligent technology solutions.
+            </p>
+            <div class="row justify-content-left">
+              <div class="col">
                 <ul>
-                    <li class="current"><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                  <li><i class="bx bx-envelope"></i><span>witomalik@gmail.com</span></li>
                 </ul>
-            </nav>
+              </div>
+              <div class="col">
+                <ul>
+                  <li><i class="bx bx-phone"></i><span>+886 975 023 634</span></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul>
+                  <li><i class="bx bx-home"></i><span>witomalik.github.io</span></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="row text-justify">
+              <p>From a young age, I have harbored a deep-seated passion for programming, a passion that has been ingrained in me since my elementary school days. Even then, I turned to Internet as my steadfast companion in learning, a journey that culminated in the creation of my own website by the time I reached the sixth grade. This early fascination with programming propelled me to delve deeper into the field, leading me to participate in the National Science Olympiad during high school, where I immersed myself in complex algorithms. This dedication not only earned me a third-place finish in a national coding competition but also paved the way for my acceptance into one of the most prestigious universities in Indonesia. Pursuing a major in computer engineering, I undertook a bachelor's thesis in the realm of image processing. This academic journey afforded me the incredible opportunity to intern in Taiwan, collaborating with the esteemed team at NTUST. Following my graduation, I was honored with a full scholarship for a master's program under the guidance of a professor who recognized my potential and dedication to the field. This journey culminated in the acquisition of a master's diploma specializing in computer vision.</p>
+            </div>
+          </div>
         </div>
-    </header>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+
+    <!-- <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Awards</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
     
-    <section id="home">
-        <div class="container">
-            <h1 class="branding-title">Bringing visions to life through intelligent technology solutions</h1>
-            <p>
-                Based in New Taipei City, I am a product data engineer at Groundhog Technologies Inc., where I develop comprehensive data architectures and enhance software for effective communication and data processing.
-            </p>
+    <!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
         </div>
+
+        <div class="container text-center">
+          <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 justify-content-center">
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-javascript bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-java bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-python bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-c-plus-plus bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-postgresql bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-flask bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-docker bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-php bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-jquery bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-git bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-html5 bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-bootstrap bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-angular bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-nodejs bx-lg'></i></div>
+            </div>
+            <div class="col">
+              <div class="p-3"><i class='bx bxl-spring-boot bx-lg'></i></div>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <!-- <div class="row skills-content justify-content-around text-center">
+
+          <div class="col-lg-2">
+            <i class="fa-brands fa-php fa-5x"></i>
+          </div>
+
+          <div class="col-lg-2">
+            <i class="fa-brands fa-c fa-5x"></i>
+          </div>
+
+          <div class="col-lg-2">
+            <i class="fa-brands fa-python fa-5x"></i>
+          </div>
+
+          <div class="col-lg-2">
+            <i class="fa-brands fa-java fa-5x"></i>
+          </div>
+
+          <div class="col-lg-2">
+            <i class="fa-brands fa-js fa-5x"></i>
+          </div>
+
+        </div>
+
+        <br>
+
+        <div class="row skills-content justify-content-around text-center">
+
+          
+
+          <div class="col-lg-2">
+            <i class="fa-brands fa-linux fa-5x"></i>
+          </div>
+
+          <div class="col-lg-2">
+            <i class="fa-brands fa-git fa-5x"></i>
+          </div>
+
+          <div class="col-lg-2">
+            <i class="fa-brands fa-docker fa-5x"></i>
+          </div>
+
+          <div class="col-lg-2">
+            <i class="fa-brands fa-angular fa-5x"></i>
+          </div>
+
+          
+
+        </div> -->
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row">
+          
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Groundhog Technologies Inc.</h4>
+              <p><em>Product Data Engineer - Taiwan </em></p>
+              <h5>April 2023 - Present</h5>
+              <ul>
+                <li>Developed a comprehensive data architecture, from vendor radio access to user interfaces, and streamlined data flow using Python.</li>
+                <li>Enhanced WordPress for effective specification management and team communication, integrating with the Redmine ticketing system.</li>
+                <li>Optimized ClickHouse queries for large-scale data processing and conducted analytics with Tableau.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Signal Processing and Machine Learning Laboratory, NTUST</h4>
+              <p><em>Graduate Researcher - Taiwan </em></p>
+              <h5>April 2021 - February 2023</h5>
+              <ul>
+                <li>Established computational setups to replicate and evaluate ML research from papers like "Unbiased Teacher", "Every Pixel Matters", "FCOS", "DA-Retinanet", "FDA", "ROACH", and "LAV", enhancing ML accuracy and dependability.</li>
+                <li>Directed the creation of a CARLA simulation testing system, covering data gathering to performance assessment, using open scenarios and maps.</li>
+                <li>Innovated an autonomous vehicle model, integrating a control framework from the "ROACH" model, combined with a multi-sensor system and the 'Learning from Vehicle Model' method, elevating industry safety and efficiency standards.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Broadband Mobile Wireless Laboratory, NTUST</h4>
+              <p><em>Research Intern - Taiwan </em></p>
+              <h5>January 2023 - August 2019</h5>
+              <ul>
+                <li>Pioneered WebSocket solutions for real-time UI-server communication, elevating user engagement and system responsiveness.</li>
+                <li>Designed a smart user access scheduler, optimizing resources and user experiences with advanced scheduling algorithms.</li>
+                <li>Developed robust microservices on Docker using C#, ensuring flexibility, reliability, and peak system performance.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <!-- <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Wito Malik</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <ul>
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul>
+            </div> -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>National Taiwan University of Science and Technology</h4>
+              <p><em>Master of Science in Computer Vision</em></p>
+              <h5>February 2021 - February 2023</h5>
+              <p>Developed a machine learning model utilizing multi-sensor data through CNN, GRU, and ROACH techniques to enhance the safety and awareness of autonomous vehicles.</p>
+            </div>
+            <div class="resume-item">
+              <h4>University of Indonesia</h4>
+              <p><em>Bachelor of Engineering in Computer Engineering</em></p>
+              <h5>June 2016 - June 2020</h5>
+              <p>My bachelor thesis centered on creating a secure encryption system for medical image storage in data centers, utilizing AES for security and Base64 for HTTP compatibility. DOI:10.1145/3442555.3442580</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Collection of my successful project</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <!-- <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Vehicle Monitoring System</h4>
+                <p>This application used to detect excessive light and sound from the vehicle around campus area</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Autonomous Intelligent Model</h4>
+                <p>This intelligent model are combined from multi modal sensor</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
     </section>
     
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                I am a passionate engineer with experience in data architecture, optimization of queries, and analytics. My academic background includes extensive research in signal processing and machine learning.
-            </p>
-        </div>
-    </section>
+    <!-- End Portfolio Section -->
+
     
-    <section id="work">
-        <div class="container">
-            <h2>Work Experience</h2>
-            <p>
-                My professional journey has been defined by my tenure at Groundhog Technologies Inc. as a Product Data Engineer and my research at the National Taiwan University of Science and Technology.
-            </p>
-        </div>
-    </section>
-    
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>
-                Email: witomalik@gmail.com<br>
-                Phone: +886 975-023-634<br>
-                GitHub: <a href="https://github.com/witomalik" target="_blank">github.com/witomalik</a>
-            </p>
-        </div>
-    </section>
-    
-    <footer>
-        <div class="container">
-            <p>Portfolio of Wito Malik &copy; 2023</p>
-        </div>
-    </footer>
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Wito Malik</h3>
+      <p>Bringing visions to life through intelligent technology solutions.</p>
+      <div class="social-links">
+        <a href="#" class="github"><i class="bx bxl-github"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
