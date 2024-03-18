@@ -136,11 +136,11 @@ h6 {
   }
 }
 
-@media (min-width: 991px) {
+/* @media (min-width: 991px) {
   #main {
     margin-left: 100px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -279,11 +279,11 @@ h6 {
   position: relative;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
   }
-}
+} */
 
 #hero:before {
   content: "";
